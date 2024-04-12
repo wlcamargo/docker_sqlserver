@@ -8,7 +8,7 @@
 ![Imagemi](./assets/sqlserver_on_docker.png)
 
 ## Tutorial
-
+https://www.youtube.com/watch?v=ZSUoCe5tuiU
 
 ## Getting Started
 
