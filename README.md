@@ -18,6 +18,12 @@
 
     docker-compose up -d
 
+## Login
+
+User : sa
+
+Password : mudar@123
+
 ## Access Using Dbeaver
 ![Imagemi](./assets/first_connection.png)
 
