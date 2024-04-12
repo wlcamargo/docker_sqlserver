@@ -13,8 +13,6 @@ services:
       MSSQL_PID: "Evaluation"
     ports:
       - "1435:1433"
-    networks:
-      - proxy
 
 networks:
   proxy:
