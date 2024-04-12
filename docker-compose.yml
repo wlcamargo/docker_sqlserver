@@ -12,8 +12,6 @@ services:
       MSSQL_PID: "Evaluation"
     ports:
       - "1435:1433"
-    volumes:
-      - ./data:/var/opt/mssql/data  # Change './data' to your desired host directory
 
 networks:
   proxy:
