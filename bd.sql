@@ -1,4 +1,8 @@
+CREATE database youtube;
+go
+
 use youtube;
+go
 
 CREATE LOGIN chapolin
 WITH PASSWORD ='mudar@123', DEFAULT_DATABASE = youtube;
