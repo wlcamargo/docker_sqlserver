@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+
+  mssqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-preview-ubuntu-22.04
+    container_name: mssqlserver
+    hostname: mssqlserver
+    restart: always
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "mudar@123"
+      MSSQL_PID: "Evaluation"
+    ports:
+      - "1435:1433"
+    networks:
+      - proxy
+
+networks:
+  proxy:
+    name: proxy
+    external: true
