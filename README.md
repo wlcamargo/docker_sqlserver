@@ -1,5 +1,10 @@
 # SQL Server on Docker
 
+## Architecture
+![Imagemi](./assets/architecture.png)
+
+
+## Container Running
 ![Imagemi](./assets/sqlserver_on_docker.png)
 
 ## Tutorial
